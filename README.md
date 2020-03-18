@@ -2,7 +2,7 @@
 ### Executive Summary
 If you have ever used WalkScore, you've seen it is basically a kernal density map (aka heat map) showing the concentration of 10 different types of amenities. What if you're not interested in all 10? What if you don't care about shopping or schools? This script takes in user pereferences and generates a custom walkability map. This was a class project for GISc Programming in 2014. 
 ### Data
-I extracted the 25,000+ amenities from ESRI Business Analyst through a search for the relevant NAICS codes. The basemap is for 
+I extracted the 25,000+ amenities from ESRI Business Analyst through a search for the relevant NAICS codes. The basemap is a street map of Dallas Fort Worth metro area.
 ### Methodology
 This program asks the user to rank (1-10) twelve different amenities. Then it prints the ranking to confirm with the user that they are happy with their choices. If not, it allows the user to go back and rerank the choices. It then updates the amenities map layer with the rankings and then executes an inverse distance weight operation with a range of 0.25 miles.
 ### Results
